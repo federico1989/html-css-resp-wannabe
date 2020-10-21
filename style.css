@@ -83,21 +83,19 @@ img {
   }
   .row {
     width: 100%;
-    margin-left: none;
-    margin-right: none;
-    margin-top: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
   }
   #lezioni, #why{
     background-color: #f2f2cd;
   }
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    float: none;
+  #steps {
+    background-color: white;
   }
   img {
     height: 100px;
-    padding: none;
+    padding: 0;
   }
 
 
