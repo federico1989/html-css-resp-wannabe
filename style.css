@@ -83,8 +83,6 @@ img {
   }
   .row {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     margin-top: 0;
   }
   #lezioni, #why{
@@ -93,10 +91,21 @@ img {
   #steps {
     background-color: white;
   }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
+  }
+  h3 {
+    margin: 0;
+  }
   img {
     height: 100px;
     padding: 0;
   }
-
-
+  #why img {
+    height: 70px;
+    border-radius: 50%;
+    padding: 20px
+  }
 }
